@@ -12,7 +12,7 @@ exports.activate = function() {
             changedEditor.dh_activeSaveTimerID = setTimeout(function(){
                 changedEditor.dh_activeSaveTimerID = undefined
                 changedEditor.save();
-            }, 3000);
+            }, 1000);
         });
     });
 }
